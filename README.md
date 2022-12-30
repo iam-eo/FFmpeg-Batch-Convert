@@ -1,7 +1,7 @@
 # FFmpeg-Batch-Convert
 Converts batch video files using FFmpeg
 
-This is a simple batch convert file using FFmpeg.
+This is a simple batch convert script using FFmpeg.
 
 # Instructions:
 1. clone the ffmpegconvert.sh file.
