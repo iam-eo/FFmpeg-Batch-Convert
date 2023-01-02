@@ -7,6 +7,8 @@ dirPath="${file%/*}/encoded"
 mkdir -p "${dirPath}"
 
 oldname="${file}"
+echo $oldname
+
 fileext="${file##*.}"
 
 newname="${oldname%.$fileext}_convert.$fileext"
