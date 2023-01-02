@@ -20,5 +20,4 @@ mv "${oldname%.$fileext}".mp4 "$dirPath"
 mv "$newname" "$oldname"
 
 
-#ffmpeg -i "$file" -c:a aac -b:a 128k "encoded/${file%.*}".mp4
 done
