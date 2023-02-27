@@ -1,5 +1,7 @@
 shopt -s globstar nullglob dotglob
 
+output.txt
+
 for file in ./**/*.{mpg,mpeg,mp4,avi,mov}
 do
 
