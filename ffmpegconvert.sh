@@ -2,7 +2,7 @@ shopt -s globstar nullglob dotglob
 
 rm -f output.txt
 
-for file in ./**/*.{mpg,mpeg,mp4,avi.mov}
+for file in ./**/*.{mpg,mpeg,mp4,avi,mov}
 do
 
 dirPath="${file%/*}/encoded"
